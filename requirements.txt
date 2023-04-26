@@ -1,2 +1,5 @@
 xgboost
 scikit-learn
+numpy
+pickle-mixin
+streamlit
