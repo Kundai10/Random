@@ -38,9 +38,9 @@ def main():
     
     st.write("""### We need some information to predict if you have High Blood Pressure""")
     #Input data from user
-    level_of_hb = st.number_input("Level of Haemoglobin", min_value=0.00, max_value=1.50)
-    geneteic_pedegree = st.number_input("Genetic Pedegree Coefficient", min_value=0)
-    age = st.number_input("Age", min_value=1)
+    level_of_hb = st.number_input("Level of Haemoglobin", min_value=0.00, max_value=17)
+    geneteic_pedegree = st.number_input("Genetic Pedegree Coefficient", min_value=0.00, max_value=0.98)
+    age = st.number_input("Age", min_value=18)
     bmi = st.number_input("BMI", min_value=10)
     sex = st.number_input("Sex", min_value=0, max_value=1)
     smoking = st.number_input("Smoking", min_value=0, max_value=1)
